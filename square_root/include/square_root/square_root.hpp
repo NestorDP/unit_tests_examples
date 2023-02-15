@@ -7,7 +7,7 @@ class SquareRoot {
 
     ~SquareRoot();
 
-    int getSquareRoot(int num);
+    double getSquareRoot(double num);
 };
 
 
