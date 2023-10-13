@@ -17,7 +17,7 @@ jobs:
       - name: Lint with cpplint
         run: cpplint --recursive .
       - name: Creat build dir
-        run: mkdir build && build
+        run: mkdir build && cd build
       - name: Configure
         run: cmake ..
       - name: Compile
