@@ -1,8 +1,12 @@
-#include "unit_tests_examples/square_root.hpp"
-#include <iostream>
+// Copyright 2023 - Nestor Neto
+
 #include <locale.h>
 
-int main () {
+#include <iostream>
+
+#include "unit_tests_examples/square_root.hpp"
+
+int main() {
     SquareRoot root;
 
     setlocale(LC_ALL, "portuguese");

@@ -1,8 +1,11 @@
+// Copyright 2023 - Nestor Neto
+
 #include <unit_tests_examples/square_root.hpp>
+
 #include "gtest/gtest.h"
 
 class SquareRootTest : public ::testing::Test {
-  protected:
+ protected:
     SquareRoot root;
 };
 

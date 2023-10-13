@@ -1,8 +1,11 @@
+// Copyright 2023 - Nestor Neto
+
 #include <unit_tests_examples/factorial.hpp>
+
 #include "gtest/gtest.h"
 
 class FactorialTest : public ::testing::Test {
-  protected:
+ protected:
     Factorial fac;
 };
 

@@ -1,8 +1,10 @@
-#ifndef INCLUDE_FACTORIAL_HPP_
-#define INCLUDE_FACTORIAL_HPP_
+// Copyright 2023 - Nestor Neto
+
+#ifndef INCLUDE_UNIT_TESTS_EXAMPLES_FACTORIAL_HPP_
+#define INCLUDE_UNIT_TESTS_EXAMPLES_FACTORIAL_HPP_
 
 class Factorial {
-  public:
+ public:
     Factorial() = default;
 
     ~Factorial() = default;
@@ -10,5 +12,4 @@ class Factorial {
     int getFactorial(int num);
 };
 
-
-#endif  // INCLUDE_FACTORIAL_HPP_
+#endif  // INCLUDE_UNIT_TESTS_EXAMPLES_FACTORIAL_HPP_

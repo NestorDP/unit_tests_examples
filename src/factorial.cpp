@@ -1,14 +1,13 @@
+// Copyright 2023 - Nestor Neto
+
 #include "unit_tests_examples/factorial.hpp"
 
-
-int Factorial::getFactorial(int num){
+int Factorial::getFactorial(int num) {
     if (num > 0) {
         return num * getFactorial (num -1);
-    }
-    else if (num == 0){
+    } else if (num == 0) {
         return 1;
-    }
-    else {
+    } else {
         return -1;
     }
 }
