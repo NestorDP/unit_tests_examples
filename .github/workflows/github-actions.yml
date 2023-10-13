@@ -12,13 +12,11 @@ jobs:
           python-version: 3.7
       - name: Update pip
         run: python -m pip install --upgrade pip
-      - name: Install dependencies
+      - name: Install lint dependencies
         run: pip install cpplint
       - name: Lint with cpplint
         run: cpplint --recursive .
-      - name: Creat build dir
-        run: mkdir build && cd build
-      - name: Configure
-        run: cmake .
-      - name: Compile
-        run: make 
+      - name: clone Gtest
+        run: git clone https://github.com/google/googletest.git -b v1.14.0 && cd googletest
+      - name: clone Gtest
+        run: git clone https://github.com/google/googletest.git -b v1.14.0 && cd googletest
