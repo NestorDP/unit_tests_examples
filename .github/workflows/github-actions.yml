@@ -22,4 +22,5 @@ jobs:
         run: cmake .
       - name: Compile
         run: make
-
+      - name: Run unit tests
+        run: ./runTests
