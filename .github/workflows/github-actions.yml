@@ -18,5 +18,6 @@ jobs:
         run: cpplint --recursive .
       - name: clone Gtest
         run: git clone https://github.com/google/googletest.git -b v1.14.0 && cd googletest
-      - name: clone Gtest
-        run: git clone https://github.com/google/googletest.git -b v1.14.0 && cd googletest
+      - name: Compile Gtest
+        run: cmake . && make
+
