@@ -1,13 +1,13 @@
 #ifndef INCLUDE_SQUARE_ROOT_HPP_
 #define INCLUDE_SQUARE_ROOT_HPP_
 
-class SquareRoot {
+class Factorial {
   public:
-    SquareRoot();
+    Factorial() = default;
 
-    ~SquareRoot();
+    ~Factorial() = default;
 
-    int getSquareRoot(int num);
+    int getFactorial(int num);
 };
 
 

@@ -1,9 +1,6 @@
 
 #include "factorial/factorial.hpp"
 
-Factorial::Factorial () {}
-
-Factorial::~Factorial () {}
 
 int Factorial::getFactorial(int num){
     if (num > 0) {
