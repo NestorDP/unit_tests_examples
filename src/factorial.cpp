@@ -1,5 +1,4 @@
-
-#include "factorial/factorial.hpp"
+#include "unit_tests_examples/factorial.hpp"
 
 
 int Factorial::getFactorial(int num){

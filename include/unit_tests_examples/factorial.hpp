@@ -1,5 +1,5 @@
-#ifndef INCLUDE_SQUARE_ROOT_HPP_
-#define INCLUDE_SQUARE_ROOT_HPP_
+#ifndef INCLUDE_FACTORIAL_HPP_
+#define INCLUDE_FACTORIAL_HPP_
 
 class Factorial {
   public:
@@ -11,4 +11,4 @@ class Factorial {
 };
 
 
-#endif  // INCLUDE_SQUARE_ROOT_HPP_
+#endif  // INCLUDE_FACTORIAL_HPP_

@@ -1,4 +1,4 @@
-#include <factorial/factorial.hpp>
+#include <unit_tests_examples/factorial.hpp>
 #include "gtest/gtest.h"
 
 class FactorialTest : public ::testing::Test {

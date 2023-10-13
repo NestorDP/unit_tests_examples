@@ -1,5 +1,6 @@
 #include "gtest/gtest.h"
 #include "test_square_root.cpp"
+#include "test_factorial.cpp"
 
 
 int main(int argc, char **argv)
