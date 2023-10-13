@@ -19,5 +19,5 @@ jobs:
       - name: Install Gtest
         run: git clone https://github.com/google/googletest.git -b v1.14.0 && cd googletest && cmake . && make && sudo make install && pwd
       - name: Compile
-        run: pwd && camke . && make
+        run: pwd && ls
 
