@@ -16,3 +16,9 @@ jobs:
         run: pip install cpplint
       - name: Lint with cpplint
         run: cpplint --recursive .
+      - name: Creat build dir
+        run: mkdir build && build
+      - name: Configure
+        run: cmake ..
+      - name: Compile
+        run: make 
